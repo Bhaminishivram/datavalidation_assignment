@@ -1,0 +1,65 @@
+
+body{
+background-color: #bdbdbd; 
+font-family: sans-serif;
+} 
+
+#heading{
+  text-align: center;
+}
+
+input[type=text] {
+  width: 7%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  background-color: #bdd6d0;
+  color: #1600ca;
+}
+
+.button {
+  background-color: #62a064; /* Green */
+  border: none;
+  color: white;
+  padding: 12px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.batable{
+margin-left: -46px;
+margin-bottom: 30px;
+}
+.container{
+text-align: center;
+margin-top: 76px;
+
+}
+#bankAccountTable,#bankAccountErrorTable {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+#bankAccountTable td,#bankAccountErrorTable td, #bankAccountTable th,#bankAccountErrorTable th {
+  border: 1px solid #ddd;
+  padding: 2px;
+}
+
+#bankAccountTable tr,#bankAccountErrorTable tr:nth-child(even){background-color: #f2f2f2;}
+
+#bankAccountTable tr,#bankAccountErrorTable tr:hover {background-color: #ddd;}
+
+#bankAccountTable th,#bankAccountErrorTable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #62a064;
+  color: white;
+}

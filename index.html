@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head> 
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" type="text/css" href="style.css">
+     <title>DATA VALIDATION</title>
+</head>
+<body> 
+
+  <h2 id="heading"> BANK DETAILS DATA VALIDATION </h2>
+
+<div class="container">
+<div class="batable">
+         <label for="fname">BANKID:</label>
+        <input type="text" id="bankId" >
+      </br>
+        <label for="fname">ACCOUNTID:</label>
+        <input type="text" id="accountId" > 
+      </br> </br>
+        <button class="button" onclick="dataInitialization()">Validation</button>
+</div>
+
+     <table id="bankAccountTable">
+        <tr>
+          <th>Bank Id</th>
+          <th>Account Type</th>
+          <th>Account Number</th>
+        </tr>
+    </table>
+
+    <br/>
+
+    <table id="bankAccountErrorTable">
+        <tr>
+          <th>BankId</th>
+          <th>AccountId</th>
+          <th>Reason</th>
+        </tr>
+    </table>    
+</div>
+
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
+
