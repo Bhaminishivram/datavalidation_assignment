@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head> 
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" type="text/css" href="style.css">
+     <title>DATA VALIDATION</title>
+</head>
+<body>  
+  <nav class="navbar">
+    <div class="aroha"><a href="https://aroha.co.in//">Aroha Bank </a> </div> 
+    <div class="navbar-links">
+      <ul>
+        <li><a href="#">HOME</a></li> 
+        <li><a href="#">ABOUT</a></li>
+        <li><a href="#">SERVICES</a></li>
+        <li><a href="#">SAVINGS ACCOUNT</a></li> 
+        <li><a href="#">FIXED ACCOUNT</a></li>
+        <li><a href="#">CURRENT ACCOUNT</a></li> 
+
+        <li><a href="#">CONTACT_US</a></li>
+      </ul>
+    </div>
+   </nav>
+
+  <h2 id="heading"> BANK DETAILS DATA VALIDATION </h2>
+
+<div class="container">
+  <div class="batable"> 
+        <div id="first_input">
+        <label for="fname">BANK_ID:</label>
+        <input type="text" id="bankId"  maxlength="" size="30"> 
+      </div>
+        </br> 
+        <div id="second_input">
+        <label for="fname">ACCOUNT_ID:</label>
+        <input type="text" id="accountId" maxlength=""> 
+       </div>
+
+      </br> </br>
+        <button class="button" onclick="dataInitialization()">Validation</button>
+  </div>
+  <div id="table_parent">
+       <div id="box1">  
+      <h3 id="head_target">TARGET_GRID</h3>
+     <table id="bankAccountTable" > 
+        <tr>
+          <th>Bank_Id</th>
+          <th>Account_Type</th>
+          <th>Account_Number</th>
+        </tr>
+    </table>
+    </div>
+          
+        <div id="box2">
+        <h3 id="head_error">ERROR_GRID</h3>
+        <table id="bankAccountErrorTable" >
+        <tr>
+          <th>Bank_Id</th>
+          <th>Account_Id</th>
+          <th id="reason_th ">Reason</th>
+        </tr>
+    </table>  
+    </div> 
+  </div>
+
+</div>
+  
+  <div class="footer">
+      <p class="foo1">&copy COPYRIGHT</p> 
+     <a href="https://aroha.co.in//">AROHA TECHNOLOGIES</a>
+  </div>
+
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
+
